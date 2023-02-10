@@ -1,0 +1,155 @@
+* {
+    color:#3d427c;
+}
+
+html {
+    font-size: 0.7rem;
+}
+
+.navbar {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+}
+
+.btn-very-small {
+    font-size: 0.9rem;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.div_context {
+    visibility: hidden;
+    display: none;
+}
+
+body {
+    /* font-size: 0.5rem; */
+}
+
+.btn-sm {
+    /* font-size: 0.7rem; */
+}
+
+.navbar-light {
+    background-color: #3d437c;//$bd-purple
+}
+
+.navbar-light a:visited {
+    color: #bdc1e2;
+}
+.navbar-light a:hover {
+    color: #bdc1e2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #bdbde2;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #ffffff;
+}
+
+.form-mandatory {
+    color: red;
+    margin-left:4px;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+a:visited, a {
+    color:#3d427c;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#7b80e0;
+    /* text-decoration: underline; */
+}
+
+tr.tr_link:hover {
+    background-color: #bdbde2;
+}
+
+.btn, a.btn, a.btn:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn-primary, a.btn-primary , a.btn-primary :visited {
+    background-color: #3d417c;
+    border-color: #3d417c;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #292b50;
+    border-color: #403d7c;
+}
+
+.nav-version {
+    color: #7372bc;
+    font-size: 0.3rem;
+}
+
+.rotate {
+
+    transform: rotate(-90deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+  
+    /* IE */
+    -ms-transform: rotate(-90deg);
+  
+    /* Opera */
+    -o-transform: rotate(-90deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
+
+  .rotate45 {
+
+    transform: rotate(-45deg);
+  
+  
+    /* Legacy vendor prefixes that you probably don't need... */
+  
+    /* Safari */
+    -webkit-transform: rotate(-45deg);
+  
+    /* Firefox */
+    -moz-transform: rotate(-45deg);
+  
+    /* IE */
+    -ms-transform: rotate(-45deg);
+  
+    /* Opera */
+    -o-transform: rotate(-45deg);
+  
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+  }
+
+  .td_creneau {
+    width: 40px;
+  }

@@ -1,0 +1,242 @@
+{
+	"Sources/Methods/TD_001.4dm": {
+		"left": 895,
+		"top": 200,
+		"width": 1000,
+		"height": 644
+	},
+	"Sources/Methods/TD_002.4dm": {
+		"left": 895,
+		"top": 200,
+		"width": 1000,
+		"height": 644
+	},
+	"Sources/Methods/TD_003.4dm": {
+		"left": 765,
+		"top": 266,
+		"width": 1000,
+		"height": 644
+	},
+	"Sources/Methods/TD_003_2.4dm": {
+		"left": 775,
+		"top": 255,
+		"width": 1000,
+		"height": 644
+	},
+	"Sources/Methods/TD_003_3.4dm": {
+		"left": 472,
+		"top": 191,
+		"width": 1246,
+		"height": 901
+	},
+	"Sources/Methods/TD_004.4dm": {
+		"left": 518,
+		"top": 315,
+		"width": 1000,
+		"height": 644
+	},
+	"Sources/Methods/TD_005.4dm": {
+		"left": 576,
+		"top": 369,
+		"width": 1000,
+		"height": 594
+	},
+	"Sources/Methods/TD_009.4dm": {
+		"left": 141,
+		"top": 413,
+		"width": 1618,
+		"height": 586
+	},
+	"Sources/Methods/TD_008.4dm": {
+		"left": 199,
+		"top": 430,
+		"width": 1618,
+		"height": 732
+	},
+	"Sources/Methods/TD_007.4dm": {
+		"left": 8,
+		"top": 109,
+		"width": 1618,
+		"height": 586
+	},
+	"Sources/Methods/TD_006.4dm": {
+		"left": 174,
+		"top": 270,
+		"width": 1618,
+		"height": 586
+	},
+	"Sources/Methods/TD_010.4dm": {
+		"left": 582,
+		"top": 264,
+		"width": 965,
+		"height": 811
+	},
+	"Sources/Methods/TD_011.4dm": {
+		"left": 22,
+		"top": 236,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/Bouton.4dm": {
+		"left": 1046,
+		"top": 564,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/List Box.4dm": {
+		"left": 86,
+		"top": 436,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/Bouton1.4dm": {
+		"left": -45,
+		"top": 500,
+		"width": 1286,
+		"height": 421
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/Bouton2.4dm": {
+		"left": 19,
+		"top": 281,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/Colonne2.4dm": {
+		"left": 210,
+		"top": 394,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Methods/ui_displayEvenements.4dm": {
+		"left": 97,
+		"top": 499,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Methods/ui_loadEvenements.4dm": {
+		"left": 17,
+		"top": 515,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/btn_enr.4dm": {
+		"left": 118,
+		"top": 570,
+		"width": 1618,
+		"height": 583
+	},
+	"Sources/Forms/LEGACY_001/ObjectMethods/btn_sup.4dm": {
+		"left": -1,
+		"top": 339,
+		"width": 1618,
+		"height": 709
+	},
+	"Sources/Methods/tool_getArguments.4dm": {
+		"left": -177,
+		"top": 302,
+		"width": 1618,
+		"height": 707
+	},
+	"Sources/Methods/wForm_Inscription.4dm": {
+		"left": -777,
+		"top": 323,
+		"width": 1618,
+		"height": 707
+	},
+	"Sources/Methods/web_initHome.4dm": {
+		"left": -791,
+		"top": 435,
+		"width": 1618,
+		"height": 709
+	},
+	"Sources/Methods/web_loadUsers.4dm": {
+		"left": -538,
+		"top": 426,
+		"width": 1618,
+		"height": 706
+	},
+	"Sources/Methods/web_Deconnexion.4dm": {
+		"left": -864,
+		"top": 443,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Methods/wForm_Connexion.4dm": {
+		"left": -7,
+		"top": 400,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Methods/wForm_MonCompte.4dm": {
+		"left": 34,
+		"top": 424,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Methods/ui_loadUtilisateurs.4dm": {
+		"left": 67,
+		"top": 369,
+		"width": 1618,
+		"height": 714
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/List Box.4dm": {
+		"left": 168,
+		"top": 636,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Forms/ORDA_001/method.4dm": {
+		"left": 160,
+		"top": 635,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/Button.4dm": {
+		"left": -95,
+		"top": 518,
+		"width": 1618,
+		"height": 725
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/Bouton.4dm": {
+		"left": 183,
+		"top": 449,
+		"width": 1618,
+		"height": 509
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/Bouton1.4dm": {
+		"left": 183,
+		"top": 572,
+		"width": 1618,
+		"height": 509
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/Bouton2.4dm": {
+		"left": 5,
+		"top": 567,
+		"width": 1618,
+		"height": 542
+	},
+	"Sources/Forms/ORDA_001/ObjectMethods/Bouton3.4dm": {
+		"left": 55,
+		"top": 552,
+		"width": 1618,
+		"height": 509
+	},
+	"Sources/Methods/wForm_InscriptionEvenement.4dm": {
+		"left": 8,
+		"top": 109,
+		"width": 1618,
+		"height": 606
+	},
+	"Sources/Methods/web_getSolde.4dm": {
+		"left": 825,
+		"top": 241,
+		"width": 1618,
+		"height": 606
+	},
+	"Sources/Methods/wForm_CrediterCompte.4dm": {
+		"left": 745,
+		"top": 179,
+		"width": 1618,
+		"height": 706
+	}
+}

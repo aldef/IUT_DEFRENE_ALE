@@ -1,0 +1,224 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Bouton": {
+					"type": "button",
+					"text": "Nouveau évènement",
+					"top": 399,
+					"left": 18,
+					"width": 292,
+					"height": 47,
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton1": {
+					"type": "button",
+					"text": "Nouveau bidon",
+					"top": 26,
+					"left": 322,
+					"width": 233,
+					"height": 37,
+					"events": [
+						"onClick"
+					]
+				},
+				"Bouton2": {
+					"type": "button",
+					"text": "Modifier",
+					"top": 26,
+					"left": 575,
+					"width": 212,
+					"height": 37,
+					"events": [
+						"onClick"
+					]
+				},
+				"Texte": {
+					"type": "text",
+					"text": "Libelle:",
+					"top": 100,
+					"left": 326,
+					"width": 104,
+					"height": 15
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 433,
+					"top": 99,
+					"width": 343,
+					"height": 16,
+					"dataSourceTypeHint": "text",
+					"dataSource": "Form:C1466.evenementAffiche.Libelle"
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "Date de début:",
+					"top": 145,
+					"left": 326,
+					"width": 104,
+					"height": 15
+				},
+				"Zone de saisie1": {
+					"type": "input",
+					"left": 433,
+					"top": 145,
+					"width": 343,
+					"height": 16,
+					"dataSource": "Form:C1466.evenementAffiche.Date_Debut"
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "Date de fin:",
+					"top": 190,
+					"left": 326,
+					"width": 91,
+					"height": 15
+				},
+				"Zone de saisie2": {
+					"type": "input",
+					"left": 433,
+					"top": 189,
+					"width": 343,
+					"height": 16,
+					"dataSource": "Form:C1466.evenementAffiche.Date_Fin"
+				},
+				"Bouton3": {
+					"type": "button",
+					"text": "Supprimer",
+					"top": 240,
+					"left": 330,
+					"width": 225,
+					"height": 34,
+					"events": [
+						"onClick"
+					]
+				},
+				"listbox": {
+					"type": "listbox",
+					"dataSource": "Form:C1466.Evenement",
+					"top": 26,
+					"left": 18,
+					"width": 288,
+					"height": 353,
+					"visibility": "visible",
+					"sizingX": "fixed",
+					"sizingY": "grow",
+					"headerHeight": "2em",
+					"listboxType": "collection",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
+					"resizingMode": "legacy",
+					"columns": [
+						{
+							"name": "Date_Debut",
+							"dataSource": "This:C1470.Date_Debut",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Date Debut",
+								"name": "Entête1"
+							},
+							"footer": {
+								"name": "1"
+							}
+						},
+						{
+							"name": "Date_Fin",
+							"dataSource": "This:C1470.Date_Fin",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Date fin",
+								"name": "2"
+							},
+							"footer": {
+								"name": "3"
+							}
+						},
+						{
+							"name": "ID",
+							"dataSource": "This:C1470.ID",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Id",
+								"name": "4"
+							},
+							"footer": {
+								"name": "5"
+							}
+						},
+						{
+							"name": "Libelle",
+							"dataSource": "This:C1470.Libelle",
+							"width": 120,
+							"enterable": true,
+							"header": {
+								"text": "Libelle",
+								"name": "6"
+							},
+							"footer": {
+								"name": "7"
+							}
+						}
+					]
+				},
+				"Bouton4": {
+					"type": "button",
+					"text": "Enregistrer",
+					"top": 240,
+					"left": 575,
+					"width": 212,
+					"height": 34,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 75,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

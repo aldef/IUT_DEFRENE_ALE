@@ -1,0 +1,26 @@
+{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483616,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "web_getSolde"
+			}
+		},
+		{
+			"type": "structure"
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483615,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "wForm_CrediterCompte"
+			}
+		}
+	]
+}

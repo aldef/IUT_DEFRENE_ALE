@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>TITLE</title>
+		<link rel="stylesheet" href="/vendors/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/styles.css?vers=1">
+
+
+		<script src="/vendors/jquery.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/TableDnD/0.9.1/jquery.tablednd.js" integrity="sha256-d3rtug+Hg1GZPB7Y/yTcRixO/wlI78+2m08tosoRn7A=" crossorigin="anonymous"></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js'></script> -->
+
+		<script src="/scripts/script.js?vers=4"></script>
+
+	</head>
+	<body>
+
+			<h1>Inscription</h1>
+			<div class="container mt-3">
+
+				<form id="form_inscription" action="">
+
+					<div class="mb-3">
+						<label for="w_email" class="form-label">Adresse e-mail</label>
+						<input name="w_email" type="email" class="form-control" id="w_email" placeholder="name@example.com">
+					</div>
+
+					<div class="mb-3">
+						<label for="w_prenom" class="form-label">Prénom</label>
+						<input name="w_prenom" type="text" class="form-control" id="w_prenom" placeholder="Prénom">
+					</div>
+
+					<div class="mb-3">
+						<label for="w_nom" class="form-label">Nom</label>
+						<input name="w_nom" type="text" class="form-control" id="w_nom" placeholder="Nom">
+					</div>
+
+					<div class="mb-3">
+						<label for="w_password" class="form-label">Mot de passe</label>
+						<input name="w_password" type="password" class="form-control" id="w_password" placeholder="">
+					</div>
+
+					<input type="submit" class="btn btn-primary" id="btn_inscription" value="Continuer">
+
+
+				</form>
+				
+			</div>
+	</body>
+	<script src="/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>

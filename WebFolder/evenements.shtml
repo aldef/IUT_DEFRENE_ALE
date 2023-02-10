@@ -1,0 +1,22 @@
+<html>
+	<head><title>Evenements</title></head>
+	<script src="/vendors/jquery.min.js"></script>
+	<script src="/scripts/script.js?vers=10"></script>
+	<body>
+		<h1>EVENEMENTS</h1>
+		
+		<a href="home.shtml">Retour</a>
+	 <!--#4DIF (web_context.utilisateur_connecte#Null)-->
+	 <!--#4DLOOP [EVENEMENT]-->
+		  <form id="form_inscription_evenement" action="">
+		  <!--#4DTEXT [EVENEMENT]Libelle-->
+          <input type="hidden" id="w_id_utilisateur" name="w_id_utilisateur" value="<!--#4DTEXT web_context.utilisateur_connecte.ID-->">
+          <input type="hidden" id="w_evenement" name="w_evenement" value="<!--#4DTEXT [EVENEMENT]ID-->">
+		  <input type="submit" class="btn btn-primary" id="btn_inscription" value="S'inscrire"><br>
+		  </form>
+     <!--#4DENDLOOP-->
+	
+	
+	 <!--#4DENDIF-->
+	</body>
+</html>

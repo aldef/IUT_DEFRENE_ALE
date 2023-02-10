@@ -1,0 +1,29 @@
+<html>
+	<head><title>Créditer</title></head>
+	<script src="/vendors/jquery.min.js"></script>
+	<script src="/scripts/script.js?vers=11"></script>
+	<body>
+		<h1>CREDITER MON COMPTE</h1>
+		
+		<a href="home.shtml">Retour</a>
+	    
+		<!--#4DIF (web_context.utilisateur_connecte#Null)-->
+	    <h3>Votre solde : </h3>
+		<!--#4DSCRIPT/web_getSolde-->
+	    <!--#4DTEXT web_context.soldeTotal--> euros<br>
+		
+		<br>
+		
+		<form id="form_crediter" action="">
+			<label for="numero_cebe">N°CB</label><br>
+			<input type="text" id="numero_cebe" name="numero_cebe"><br>
+			<label for="expiration_cebe">Expiration</label><br>
+			<input type="text" id="expiration_cebe" name="expiration_cebe"><br>
+			<label for="montant">Montant</label><br>
+			<input type="text" id="montant" name="montant"><br>
+			<input type="submit" class="btn btn-primary" id="btn_creditation" value="Créditer">
+		</form>
+	
+	 <!--#4DENDIF-->
+	</body>
+</html>

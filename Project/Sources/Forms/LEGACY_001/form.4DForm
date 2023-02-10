@@ -1,0 +1,174 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"btn_enr": {
+					"type": "button",
+					"text": "Enregistrer",
+					"top": 104,
+					"left": 296,
+					"width": 310,
+					"height": 61,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_enr.4dm"
+				},
+				"Texte": {
+					"type": "text",
+					"text": "Libellé\r",
+					"top": 34,
+					"left": 296,
+					"width": 132,
+					"height": 15
+				},
+				"Texte1": {
+					"type": "text",
+					"text": "Date de début\r",
+					"top": 56,
+					"left": 296,
+					"width": 121,
+					"height": 15
+				},
+				"Texte2": {
+					"type": "text",
+					"text": "Date de fin",
+					"top": 78,
+					"left": 296,
+					"width": 162,
+					"height": 15
+				},
+				"Zone de saisie": {
+					"type": "input",
+					"left": 404,
+					"top": 33,
+					"width": 202,
+					"height": 16,
+					"dataSource": "[EVENEMENT:1]Libelle:2"
+				},
+				"Zone de saisie1": {
+					"type": "input",
+					"left": 404,
+					"top": 56,
+					"width": 202,
+					"height": 16,
+					"dataSource": "[EVENEMENT:1]Date_Debut:3"
+				},
+				"Zone de saisie2": {
+					"type": "input",
+					"left": 404,
+					"top": 77,
+					"width": 202,
+					"height": 16,
+					"dataSource": "[EVENEMENT:1]Date_Fin:4"
+				},
+				"btn_sup": {
+					"type": "button",
+					"text": "Supprimer",
+					"top": 173,
+					"left": 296,
+					"width": 310,
+					"height": 61,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btn_sup.4dm"
+				},
+				"Bouton2": {
+					"type": "button",
+					"text": "Nouvel évènement",
+					"top": 432,
+					"left": 11,
+					"width": 274,
+					"height": 48,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton2.4dm"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 16,
+					"top": 18,
+					"width": 274,
+					"height": 404,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "currentSelection",
+					"table": "EVENEMENT",
+					"method": "ObjectMethods/List Box.4dm",
+					"columns": [
+						{
+							"header": {
+								"text": "Libellé",
+								"name": "Entête1"
+							},
+							"name": "Colonne1",
+							"footer": {
+								"name": "Pied1"
+							},
+							"dataSource": "[EVENEMENT:1]Libelle:2"
+						},
+						{
+							"header": {
+								"name": "Entête2",
+								"text": "Date de début"
+							},
+							"name": "Colonne2",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "[EVENEMENT:1]Date_Debut:3"
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 48,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
